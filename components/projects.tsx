@@ -16,7 +16,8 @@ export default function Projects() {
               >
                 <span>{project.name}</span>
               </a>{" "}
-              | <span>{project.description}</span>
+              | <span>{project.description}</span> |{" "}
+              <span className="italic">{project.status}</span>
             </li>
           ))}
         </ul>

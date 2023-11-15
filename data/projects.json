@@ -2,31 +2,37 @@
   {
     "name": "Captionator",
     "link": "https://captionator.netlify.app/",
-    "description": "Web Application"
+    "description": "Web Application",
+    "status": "Current"
   },
   {
     "name": "Studio Fit",
     "link": "https://locmai1.github.io/studio-fit/",
-    "description": "Web Application"
+    "description": "Web Application",
+    "status": "Complete"
   },
   {
     "name": "Minimal Portfolio",
     "link": "https://locmai.netlify.app/",
-    "description": "Web Application"
+    "description": "Web Application",
+    "status": "Current"
   },
   {
     "name": "Notion Portfolio",
     "link": "https://locmai.vercel.app/",
-    "description": "Web Application"
+    "description": "Web Application",
+    "status": "Complete"
   },
   {
     "name": "LIFX Audio Show",
     "link": "https://github.com/locmai1/lifx-audio-show",
-    "description": "Command Line"
+    "description": "Command Line",
+    "status": "Complete"
   },
   {
     "name": "LIFX Spotify Show",
     "link": "https://github.com/locmai1/lifx-spotify-show",
-    "description": "Unpublished"
+    "description": "Unpublished",
+    "status": "Complete"
   }
 ]
