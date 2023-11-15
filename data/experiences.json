@@ -1,0 +1,32 @@
+[
+  {
+    "company": "JumboCode",
+    "team": "Keep Mass Beautiful",
+    "role": "Software Engineer",
+    "date": "2023 - Present"
+  },
+  {
+    "company": "JumboCode",
+    "team": "The Legacy Project",
+    "role": "Software Engineer",
+    "date": "2022 - 2023"
+  },
+  {
+    "company": "JumboCode",
+    "team": "SimplySmiles",
+    "role": "Software Engineer",
+    "date": "2021 - 2022"
+  },
+  {
+    "company": "Tet in Boston",
+    "team": "Information Technology",
+    "role": "Information Technology Staff",
+    "date": "2022 - 2023"
+  },
+  {
+    "company": "Putnam Investments",
+    "team": "Digital Technology",
+    "role": "Desktop Engineering Intern",
+    "date": "2021"
+  }
+]
