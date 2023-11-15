@@ -1,32 +1,32 @@
 [
   {
     "name": "Captionator",
-    "link": "https://github.com/locmai1",
+    "link": "https://captionator.netlify.app/",
     "description": "Web Application"
   },
   {
     "name": "Studio Fit",
-    "link": "https://github.com/locmai1",
+    "link": "https://locmai1.github.io/studio-fit/",
     "description": "Web Application"
   },
   {
     "name": "Minimal Portfolio",
-    "link": "https://github.com/locmai1",
+    "link": "https://locmai.netlify.app/",
     "description": "Web Application"
   },
   {
     "name": "Notion Portfolio",
-    "link": "https://github.com/locmai1",
+    "link": "https://locmai.vercel.app/",
     "description": "Web Application"
   },
   {
     "name": "LIFX Audio Show",
-    "link": "https://github.com/locmai1",
+    "link": "https://github.com/locmai1/lifx-audio-show",
     "description": "Command Line"
   },
   {
     "name": "LIFX Spotify Show",
-    "link": "https://github.com/locmai1",
+    "link": "https://github.com/locmai1/lifx-spotify-show",
     "description": "Unpublished"
   }
 ]
