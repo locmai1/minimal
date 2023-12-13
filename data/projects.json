@@ -6,6 +6,18 @@
     "status": "Current"
   },
   {
+    "name": "FaceTracks",
+    "link": "https://github.com/locmai1/facetracks",
+    "description": "Web Application",
+    "status": "Complete"
+  },
+  {
+    "name": "Dinder",
+    "link": "https://github.com/locmai1/dinder",
+    "description": "Web Application",
+    "status": "Complete"
+  },
+  {
     "name": "Studio Fit",
     "link": "https://locmai1.github.io/studio-fit/",
     "description": "Web Application",
@@ -15,7 +27,7 @@
     "name": "Minimal Portfolio",
     "link": "https://locmai.netlify.app/",
     "description": "Web Application",
-    "status": "Current"
+    "status": "Complete"
   },
   {
     "name": "Notion Portfolio",
