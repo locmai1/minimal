@@ -1,5 +1,11 @@
 [
   {
+    "name": "OfficeMinutes",
+    "link": "https://github.com/jzhang43/officeminutes/",
+    "description": "Web Application",
+    "status": "Current"
+  },
+  {
     "name": "Captionator",
     "link": "https://captionator.netlify.app/",
     "description": "Web Application",
