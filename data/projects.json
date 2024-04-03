@@ -7,7 +7,7 @@
   },
   {
     "name": "Captionator",
-    "link": "https://captionator.netlify.app/",
+    "link": "https://captionator.vercel.app/",
     "description": "Web Application",
     "status": "Current"
   },
@@ -31,13 +31,13 @@
   },
   {
     "name": "Minimal Portfolio",
-    "link": "https://locmai.netlify.app/",
+    "link": "https://locmai.vercel.app/",
     "description": "Web Application",
     "status": "Complete"
   },
   {
     "name": "Notion Portfolio",
-    "link": "https://locmai.vercel.app/",
+    "link": "https://github.com/locmai1/notion-portfolio/",
     "description": "Web Application",
     "status": "Complete"
   },
