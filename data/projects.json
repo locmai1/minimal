@@ -7,7 +7,7 @@
   },
   {
     "name": "Captionator",
-    "link": "https://captionator.vercel.app/",
+    "link": "https://captionator.netlify.app/",
     "description": "Web Application",
     "status": "Current"
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "Minimal Portfolio",
-    "link": "https://locmai.vercel.app/",
+    "link": "https://locmai.netlify.app/",
     "description": "Web Application",
     "status": "Complete"
   },
