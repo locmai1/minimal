@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Sans } from "next/font/google";
+import { IBM_Plex_Sans, Merriweather } from "next/font/google";
 import "./globals.css";
 
 const sans = IBM_Plex_Sans({
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={sans.className}>{children}</body>
+      <body className={`${sans.className} bg-noise`}>{children}</body>
     </html>
   );
 }
