@@ -1,5 +1,5 @@
 {
-    "email": "loc.mai@tufts.edu",
-    "updated": "03/2024",
-    "note": "Built this because I wanted to have a minimal portfolio that is easily maintainable by a JSON file"
+  "email": "loc.mai@tufts.edu",
+  "updated": "05/2024",
+  "note": "built this because i wanted something minimal that was easily mainable through json files"
 }

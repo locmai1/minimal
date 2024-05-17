@@ -2,15 +2,16 @@
   "firstName": "Loc",
   "lastName": "Mai",
   "current": {
-    "role": "Software Engineer",
-    "company": "JumboCode",
-    "team": "Keep Mass Beautiful"
+    "role": "Software Engineering Intern",
+    "company": "Staples",
+    "team": "Digital Solutions"
   },
   "about": "My name is Loc Mai and I'm a junior computer science student at Tufts University based in Medford, Massachusetts. I enjoy developing web applications and keeping up with new technology. While I'm not behind code, I like to go for walks, play video games, and keep up with basketball. Please feel free to reach out to me about anything!",
   "interests": [
     "Frontend",
     "Backend",
     "Database",
-    "AI"
+    "AI",
+    "Automation"
   ]
 }
