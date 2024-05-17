@@ -14,7 +14,7 @@ export default function Socials() {
                 target="_blank"
                 className="text-primary underline italic"
               >
-                <span>{social.name}</span>
+                <span>{social.link}</span>
               </a>
             </li>
           ))}

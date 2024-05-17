@@ -18,16 +18,7 @@ export default function Footer() {
           </li>
         </ul>
         <div className="flex-col gap-2">
-          <p className="text-xs">
-            Last Updated: {data.updated}, adapted from{" "}
-            <a
-              href="https://new.bhaskarrijal.me/"
-              target="_blank"
-              className="italic underline text-primary"
-            >
-              this website
-            </a>
-          </p>
+          <p className="text-xs">Last Updated: {data.updated}</p>
         </div>
       </div>
     </>

@@ -6,6 +6,7 @@ export function Interests() {
   return (
     <>
       <div className="flex gap-2">
+        <span className="font-medium leading-7">Interested in</span>
         {data.interests.map((interest, index) => (
           <div
             key={index}
