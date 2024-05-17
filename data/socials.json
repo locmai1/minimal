@@ -1,14 +1,18 @@
 [
   {
     "name": "Github",
-    "link": "https://github.com/locmai1/"
+    "link": "https://github.com/locmai1"
   },
   {
     "name": "LinkedIn",
-    "link": "https://www.linkedin.com/in/loc-mai/"
+    "link": "https://linkedin.com/in/loc-mai"
   },
   {
     "name": "Pinterest",
-    "link": "https://www.pinterest.com/locplease/"
+    "link": "https://pinterest.com/locplease"
+  },
+  {
+    "name": "Instagram",
+    "link": "https://instagram.com/locmai_"
   }
 ]

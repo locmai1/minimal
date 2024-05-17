@@ -3,10 +3,10 @@
   "lastName": "Mai",
   "current": {
     "role": "Software Engineering Intern",
-    "company": "Staples",
+    "company": "Staples Inc.",
     "team": "Digital Solutions"
   },
-  "about": "My name is Loc Mai and I'm a junior computer science student at Tufts University based in Medford, Massachusetts. I enjoy developing web applications and keeping up with new technology. While I'm not behind code, I like to go for walks, play video games, and keep up with basketball. Please feel free to reach out to me about anything!",
+  "about": "I'm a senior computer science student at Tufts based in Boston. I enjoy developing web applications and keeping up with new technology. While I'm not behind code, I like to go for walks, play video games, and keep up with basketball. Please feel free to reach out!",
   "interests": [
     "Frontend",
     "Backend",
