@@ -10,7 +10,8 @@ export default function Experiences() {
           {data.map((experience, index) => (
             <li key={index}>
               <span className="font-medium">{experience.role}</span> |{" "}
-              <span className="italic">{experience.company}</span> |{" "}
+              <span className="italic">{experience.company}</span>
+              <br className="md:hidden" /> |{" "}
               <span className="text-primary">{experience.team}</span> |{" "}
               <span>{experience.date}</span>
             </li>

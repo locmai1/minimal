@@ -1,7 +1,11 @@
 import React from "react";
 import data from "@/data/skills.json";
+import { useTheme } from "next-themes";
 
 export default function Skills() {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
   return (
     <>
       <div className="flex flex-col gap-4">
@@ -12,7 +16,9 @@ export default function Skills() {
               {type.skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="px-2 py-1 text-sm rounded-md text-primary bg-primary/10"
+                  className={`px-2 py-1 text-sm rounded-md text-primary ${
+                    currentTheme === "light" ? "bg-primary/10" : "bg-primary/30"
+                  }`}
                   aria-label="Skill"
                 >
                   <span>{skill}</span>

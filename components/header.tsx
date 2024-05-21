@@ -3,19 +3,26 @@ import data from "@/data/header.json";
 import { useTheme } from "next-themes";
 
 export function Interests() {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
   return (
     <>
-      <div className="flex gap-2">
+      <div className="flex gap-2 md:flex-row flex-col">
         <span className="font-medium leading-7">Interested in</span>
-        {data.interests.map((interest, index) => (
-          <div
-            key={index}
-            className="px-2 py-1 text-sm rounded-md text-primary bg-primary/10"
-            aria-label="Interest"
-          >
-            {interest}
-          </div>
-        ))}
+        <div className="flex gap-2">
+          {data.interests.map((interest, index) => (
+            <div
+              key={index}
+              className={`px-2 py-1 text-sm rounded-md text-primary ${
+                currentTheme === "light" ? "bg-primary/10" : "bg-primary/30"
+              }`}
+              aria-label="Interest"
+            >
+              {interest}
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
@@ -85,6 +92,9 @@ export function ThemeButton() {
 }
 
 export default function Header() {
+  const { systemTheme, theme, setTheme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
   return (
     <>
       <div className="flex flex-col-reverse gap-8 md:flex-row">
@@ -101,7 +111,11 @@ export default function Header() {
             <span className="font-bold">
               {data.current.company} | {data.current.team}
             </span>{" "}
-            <span className="ml-1 px-2 leading-6 py-1 text-xs rounded-md text-primary bg-primary/10">
+            <span
+              className={`ml-1 px-2 leading-6 py-1 text-xs rounded-md text-primary ${
+                currentTheme === "light" ? "bg-primary/10" : "bg-primary/30"
+              }`}
+            >
               <span>CURRENT</span>
             </span>
           </p>

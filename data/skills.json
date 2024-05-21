@@ -5,7 +5,6 @@
       "Python",
       "Java",
       "Javascript",
-      "C",
       "C++",
       "HTML",
       "CSS"
@@ -20,7 +19,7 @@
       "Tailwind",
       "Node",
       "Express",
-      "Pug"
+      "MaterialUI"
     ]
   },
   {
@@ -29,10 +28,11 @@
       "Git",
       "VSCode",
       "Postman",
-      "WordPress",
       "Prisma",
       "MongoDB",
-      "SQL"
+      "SQL",
+      "Jupyter",
+      "Google Cloud Platform"
     ]
   },
   {
