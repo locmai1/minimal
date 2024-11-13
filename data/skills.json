@@ -5,7 +5,9 @@
       "Python",
       "Java",
       "Javascript",
+      "Typescript",
       "C++",
+      "C",
       "HTML",
       "CSS"
     ]
@@ -14,12 +16,13 @@
     "type": "Frameworks",
     "skills": [
       "React",
-      "Typescript",
+      "Redux",
       "Next",
-      "Tailwind",
       "Node",
       "Express",
-      "MaterialUI"
+      "Tailwind",
+      "Material UI",
+      "Mantine UI"
     ]
   },
   {
@@ -30,17 +33,16 @@
       "Postman",
       "Prisma",
       "MongoDB",
-      "SQL",
-      "Jupyter",
-      "Google Cloud Platform"
+      "Jupyter Notebook",
+      "Vercel",
+      "Netlify"
     ]
   },
   {
     "type": "Languages",
     "skills": [
-      "English (Fluent)",
-      "Vietnamese (Fluent)",
-      "Japanese (Professional)"
+      "English",
+      "Vietnamese"
     ]
   }
 ]

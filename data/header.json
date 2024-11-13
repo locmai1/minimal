@@ -4,14 +4,13 @@
   "current": {
     "role": "Software Engineering Intern",
     "company": "Staples Inc.",
-    "team": "Digital Solutions"
+    "team": "Browse & Navigation"
   },
-  "about": "I'm a senior computer science student at Tufts based in Boston. I enjoy developing web applications and keeping up with new technology. While I'm not behind code, I like to go for walks, play video games, and keep up with basketball. Please feel free to reach out!",
+  "about": "I am a computer science student at Tufts based in Boston. I enjoy developing impactful web applications and keeping up with new technology. While I'm not behind code, I like to solve puzzles, play video games, and watch basketball. Please feel free to reach out!",
   "interests": [
     "Frontend",
     "Backend",
-    "Database",
-    "AI",
-    "Automation"
+    "Fullstack",
+    "Architecture"
   ]
 }

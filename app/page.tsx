@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import Header from "@/components/header";
-import Education from "@/components/education";
-import Experiences from "@/components/experiences";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
-import Socials from "@/components/socials";
-import Footer from "@/components/footer";
-import Note from "@/components/note";
-import { ThemeProvider } from "next-themes";
+import Header from '@/components/header';
+import Education from '@/components/education';
+import Experiences from '@/components/experiences';
+import Projects from '@/components/projects';
+import Skills from '@/components/skills';
+import Socials from '@/components/socials';
+import Footer from '@/components/footer';
+import Note from '@/components/note';
+import { ThemeProvider } from 'next-themes';
 
 export default function Home() {
   return (

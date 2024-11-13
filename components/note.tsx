@@ -1,20 +1,14 @@
-import React from "react";
-import data from "@/data/footer.json";
-import { useTheme } from "next-themes";
+import React from 'react';
+import useCurrentTheme from '@/hooks/useCurrentTheme';
+import data from '@/data/footer.json';
 
 export default function Note() {
-  const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
+  const { themeStyles } = useCurrentTheme();
+  const { note } = data;
 
   return (
-    <>
-      <div
-        className={`${
-          currentTheme === "light" ? "bg-primary/10" : "bg-primary/30"
-        } p-4 rounded text-center`}
-      >
-        <span className="text-sm text-primary">{data.note}</span>
-      </div>
-    </>
+    <div className={`${themeStyles.tagBgColor} p-4 rounded text-center`}>
+      <span className="text-sm text-primary">{note}</span>
+    </div>
   );
 }
