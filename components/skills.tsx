@@ -3,7 +3,7 @@ import useCurrentTheme from '@/hooks/useCurrentTheme';
 import data from '@/data/skills.json';
 
 export default function Skills() {
-  const { themeStyles } = useCurrentTheme();
+  const { isDarkMode } = useCurrentTheme();
 
   return (
     <div className="flex flex-col gap-4">
@@ -14,7 +14,7 @@ export default function Skills() {
             {type.skills.map((skill, index) => (
               <div
                 key={index}
-                className={`px-2 py-1 text-sm rounded-md text-primary ${themeStyles.tagBgColor}`}
+                className={`px-2 py-1 text-sm rounded-md text-primary ${isDarkMode ? 'bg-primary/30' : 'bg-primary/10'}`}
                 aria-label="Skill"
               >
                 <span>{skill}</span>

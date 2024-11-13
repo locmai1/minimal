@@ -3,7 +3,7 @@ import useCurrentTheme from '@/hooks/useCurrentTheme';
 import data from '@/data/header.json';
 
 export default function Header() {
-  const { setTheme, themeStyles, isDarkMode } = useCurrentTheme();
+  const { setTheme, isDarkMode } = useCurrentTheme();
   const { firstName, lastName, current, about, interests } = data;
 
   return (
@@ -55,7 +55,7 @@ export default function Header() {
             {current.company} | {current.team}
           </span>{' '}
           <span
-            className={`ml-1 px-2 leading-6 py-1 text-xs rounded-md text-primary ${themeStyles.tagBgColor}`}
+            className={`ml-1 px-2 leading-6 py-1 text-xs rounded-md text-primary ${isDarkMode ? 'bg-primary/30' : 'bg-primary/10'}`}
           >
             <span className="font-semibold">CURRENT</span>
           </span>
@@ -68,7 +68,7 @@ export default function Header() {
             {interests.map((interest, index) => (
               <div
                 key={index}
-                className={`px-2 py-1 text-sm rounded-md text-primary ${themeStyles.tagBgColor}`}
+                className={`px-2 py-1 text-sm rounded-md text-primary ${isDarkMode ? 'bg-primary/30' : 'bg-primary/10'}`}
                 aria-label="Interest"
               >
                 {interest}

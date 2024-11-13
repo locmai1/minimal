@@ -6,9 +6,5 @@ export default function useCurrentTheme() {
   const currentTheme = theme === 'system' ? systemTheme : theme;
   const isDarkMode = currentTheme === 'dark';
 
-  const themeStyles = {
-    tagBgColor: isDarkMode ? 'bg-primary/30' : 'bg-primary/10',
-  };
-
-  return { currentTheme, setTheme, themeStyles, isDarkMode };
+  return { currentTheme, setTheme, isDarkMode };
 }

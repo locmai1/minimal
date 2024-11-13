@@ -3,11 +3,11 @@ import useCurrentTheme from '@/hooks/useCurrentTheme';
 import data from '@/data/footer.json';
 
 export default function Note() {
-  const { themeStyles } = useCurrentTheme();
+  const { isDarkMode } = useCurrentTheme();
   const { note } = data;
 
   return (
-    <div className={`${themeStyles.tagBgColor} p-4 rounded text-center`}>
+    <div className={`${isDarkMode ? 'bg-primary/30' : 'bg-primary/10'} p-4 rounded text-center`}>
       <span className="text-sm text-primary">{note}</span>
     </div>
   );
