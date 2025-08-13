@@ -1,13 +1,19 @@
 {
-  "name": "minimal-portfolio",
-  "version": "0.1.0",
+  "name": "minimal",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --write '**/*.{ts,tsx,css}'"
+    "lint:fix": "next lint --fix",
+    "prettier": "prettier --write '**/*.{ts,tsx,css,json,md}'",
+    "prettier:check": "prettier --check '**/*.{ts,tsx,css,json,md}'",
+    "validate-data": "node tools/scripts/validate-data.js",
+    "type-check": "tsc --noEmit",
+    "pre-commit": "npm run type-check && npm run lint && npm run prettier:check && npm run validate-data",
+    "clean": "rm -rf .next"
   },
   "dependencies": {
     "next": "14.0.2",

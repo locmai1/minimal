@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Minimal
 
-## Getting Started
+Welcome to the Minimal Portfolio documentation! This folder contains everything you need to understand, customize, and extend the portfolio.
 
-First, run the development server:
+## 📚 Documentation Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Getting started
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**🚀 [Getting Started](./docs/GETTING_STARTED.md)** - Start here!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Quick setup and first steps
+- Making your first changes
+- Understanding the basics
+- Development commands
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**🏗️ [Architecture Overview](./docs/ARCHITECTURE.md)** - How it all works
 
-## Learn More
+- Technology stack explanation
+- Component architecture
+- Data flow and management
+- Why these technology choices
 
-To learn more about Next.js, take a look at the following resources:
+### For Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**🧩 [Component Documentation](./docs/COMPONENTS.md)** - Deep dive into each component
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- How each component works
+- Customization options
+- Adding new components
+- Styling guidelines
 
-## Deploy on Vercel
+**📊 [Data Schema Guide](./docs/DATA_SCHEMA.md)** - Understanding your content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- JSON file structures
+- Required vs optional fields
+- Validation rules
+- Common errors and fixes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### For Advanced Users
+
+**🌐 [Deployment Guide](./docs/ENVIRONMENT_SETUP.md)** - Going live
+
+- Environment configuration
+- Deployment platforms
+- Production optimization
+- Custom domain setup
+
+**🛡️ [Error Handling](./docs/ERROR_HANDLING.md)** - User experience
+
+- How errors are handled
+- 404 pages and recovery
+- Customizing error messages
+- Debugging issues
+
+## 🎯 Quick Navigation
+
+| I want to...             | Read this                                    |
+| ------------------------ | -------------------------------------------- |
+| **Get started quickly**  | [Getting Started](./docs/GETTING_STARTED.md) |
+| **Understand the tech**  | [Architecture](./docs/ARCHITECTURE.md)       |
+| **Customize components** | [Components](./docs/COMPONENTS.md)           |
+| **Edit my content**      | [Data Schema](./docs/DATA_SCHEMA.md)         |
+| **Deploy my site**       | [Deployment](./docs/ENVIRONMENT_SETUP.md)    |
+| **Fix errors**           | [Error Handling](./docs/ERROR_HANDLING.md)   |
+
+## 🆘 Getting Help
+
+### When Things Go Wrong
+
+1. **Check the console** for error messages
+2. **Run validation** with `npm run validate-data`
+3. **Check TypeScript** with `npm run type-check`
+4. **Review documentation** for the feature you're working with
+
+### Common Issues
+
+- **JSON errors**: Use the data validation tool
+- **TypeScript errors**: Check the data schema guide
+- **Styling issues**: Review component documentation
+- **Build errors**: Check deployment guide
+
+### Best Practices
+
+- Always validate data after changes
+- Test in both light and dark modes
+- Check mobile responsiveness
+- Follow the existing code patterns
+
+## 📖 Documentation Philosophy
+
+This documentation is designed to:
+
+- **Help you succeed** - Clear, actionable guidance
+- **Explain the why** - Understanding, not just instructions
+- **Grow with you** - From beginner to advanced usage
+- **Stay current** - Updated as the codebase evolves
+
+## 🔄 Contributing to Documentation
+
+Found something unclear or missing? Consider:
+
+- Adding examples to clarify concepts
+- Documenting edge cases you encountered
+- Improving explanations based on your experience
+- Adding troubleshooting tips
+
+---
+
+**Ready to get started?** Begin with [Getting Started](./docs/GETTING_STARTED.md) and build something amazing! 🚀

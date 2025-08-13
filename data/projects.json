@@ -1,9 +1,15 @@
 [
   {
-    "name": "OfficeMinutes",
+    "name": "OfficeMinutes V2",
+    "link": "https://github.com/johnny-t06/officeminutesv2/",
+    "description": "Progressive Web Application",
+    "status": "Complete"
+  },
+  {
+    "name": "OfficeMinutes V1",
     "link": "https://github.com/jzhang43/officeminutes/",
     "description": "Web Application",
-    "status": "Current"
+    "status": "Complete"
   },
   {
     "name": "Captionator",
