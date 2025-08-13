@@ -2,12 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  html::-webkit-scrollbar {
+    width: 0px;
+    background-color: #f5f5f5;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Custom focus styles */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
 }
 
-html::-webkit-scrollbar {
-  width: 0px;
-  background-color: #f5f5f5;
+@layer components {
+  /* Custom component styles */
+  .section-animate {
+    @apply animate-slide-up;
+    animation-fill-mode: both;
+  }
+
+  .section-animate:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .section-animate:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .section-animate:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .section-animate:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .section-animate:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .section-animate:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  .section-animate:nth-child(7) {
+    animation-delay: 0.7s;
+  }
+  .section-animate:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+
+  /* Improved link styles */
+  .link-primary {
+    @apply text-primary underline decoration-1 underline-offset-2 transition-all hover:decoration-2 hover:text-primary-600 focus:decoration-2;
+  }
+}
+
+@layer utilities {
+  /* Print styles */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+
+    body {
+      background: white !important;
+      color: black !important;
+    }
+  }
+
+  /* Reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fade-in,
+    .animate-slide-up,
+    .section-animate {
+      animation: none !important;
+    }
+  }
 }
