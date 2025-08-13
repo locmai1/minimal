@@ -1,25 +1,19 @@
 [
   {
     "type": "Programming Languages",
-    "skills": [
-      "Python",
-      "Java",
-      "Javascript",
-      "Typescript",
-      "C++",
-      "C",
-      "HTML",
-      "CSS"
-    ]
+    "skills": ["Java", "Javascript", "Typescript", "Bash", "SQL", "HTML", "CSS", "Python"]
   },
   {
     "type": "Frameworks",
     "skills": [
       "React",
       "Redux",
+      "Java Spring",
       "Next",
       "Node",
       "Express",
+      "Firebase",
+      "Socket.io",
       "Tailwind",
       "Material UI",
       "Mantine UI"
@@ -29,20 +23,16 @@
     "type": "Developer Tools",
     "skills": [
       "Git",
-      "VSCode",
+      "Jenkins",
+      "Azure",
+      "Jira",
+      "Confluence",
+      "PostgreSQL",
       "Postman",
       "Prisma",
       "MongoDB",
-      "Jupyter Notebook",
       "Vercel",
       "Netlify"
-    ]
-  },
-  {
-    "type": "Languages",
-    "skills": [
-      "English",
-      "Vietnamese"
     ]
   }
 ]

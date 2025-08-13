@@ -1,16 +1,6 @@
 {
   "firstName": "Loc",
   "lastName": "Mai",
-  "current": {
-    "role": "Software Engineering Intern",
-    "company": "Staples Inc.",
-    "team": "Browse & Navigation"
-  },
-  "about": "I am a computer science student at Tufts based in Boston. I enjoy developing impactful web applications and keeping up with new technology. While I'm not behind code, I like to solve puzzles, play video games, and watch basketball. Please feel free to reach out!",
-  "interests": [
-    "Frontend",
-    "Backend",
-    "Fullstack",
-    "Architecture"
-  ]
+  "about": "I am a recent computer science graduate based in Boston. I enjoy developing impactful applications and keeping up with new technology. While I'm not behind code, I like to solve puzzles, play video games, and play various sports. Please feel free to reach out!",
+  "interests": ["Backend", "Fullstack", "System Design", "Scalability"]
 }
